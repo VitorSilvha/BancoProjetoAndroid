@@ -48,6 +48,12 @@ public class PrincipalActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SaqueActivity.class);
         startActivity(intent);
     }
+
+    public void Pix(View view) {
+        Intent intent = new Intent(this, PixActivity.class);
+        startActivity(intent);
+    }
+
 }
 
 

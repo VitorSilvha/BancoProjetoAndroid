@@ -49,6 +49,13 @@
             android:onClick="sacar"
             android:text="Sacar" />
 
+        <Button
+            android:id="@+id/buttonPix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Pix"
+            android:text="PIX" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

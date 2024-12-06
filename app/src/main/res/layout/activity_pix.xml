@@ -7,4 +7,43 @@
     android:layout_height="match_parent"
     tools:context=".PixActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="500px"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/editTextCadastroPixCPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite o seu CPF"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextCadastroPixTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digita seu telefone"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/cadastroPix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CadastroPix"
+            android:text="Cadastrar chave PIX" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listarChaves"
+            android:text="VER CHAVES" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
